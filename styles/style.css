@@ -173,3 +173,54 @@ img {
   height: 56px;
   min-width: 204px;
 }
+
+/* ---------TWO------------------ */
+
+/* -----------THREE-------------------- */
+.three {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  background: var(--lavender);
+}
+.three-list {
+  display: flex;
+  flex-wrap: calc((100% - 82) / 2);
+  gap: 61px;
+}
+.three-item {
+  max-width: 50%;
+}
+.three-subtitle {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.three-title {
+  color: var(--black);
+  font-family: var(--h-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: -0.05em;
+}
+
+.three-title.small-title {
+  font-size: 28px;
+  line-height: 1.43; /* 142.857% */
+  letter-spacing: -0.03em;
+}
+
+.three-text {
+  color: var(--medium-grey);
+  line-height: 1.75;
+}
+.three-link {
+  color: var(--purple, #592ea9);
+  font-family: var(--h-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.78;
+}
